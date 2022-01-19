@@ -1,4 +1,4 @@
-// load local storage values
+// runs when page is loaded and grabs local storage values
 $(document).ready(function () {
 
 
@@ -11,7 +11,7 @@ $(document).ready(function () {
     }, 1000);
 
     // hourly time blocks 8am - 5pm
-    // each time block is colour coded to indicate current or past
+    // each time block is colour coded to indicate current, present or past
     // .past - grey 
     // .present - light pink
     // .future - light blue
@@ -44,17 +44,16 @@ $(document).ready(function () {
 
     // event can be saved into local storage by clicking save button 
     // - grab text content 
-    // - use hour as local storage key 
     $(document).on("click", ".save-button", function (event) {
         var taskText = $(this).parent().siblings(".col-8").children("textarea").val();
         var taskTime = $(this).parent().siblings(".col-2").data("hour");
-        localStorage.setItem(taskText, taskTime);
+        localStorage.setItem(taskTime, taskText);
         // console.log("this button works");
     });
 
     // when page is refreshed, events persist
     $(".row").each(function () {
-        var timeBlock = $(this).data("hour");
+        var timeBlock = $(this).children(".col-2").data("hour");
         const existingEvent = localStorage.getItem(timeBlock);
         if (existingEvent) {
             $(this).find("textarea").val(existingEvent);
