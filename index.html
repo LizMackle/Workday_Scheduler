@@ -2,91 +2,101 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>Work Day Scheduler</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
 </head>
 
 <body>
-  <header class="jumbotron">
-    <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p id="current-day" class="lead day"></p>
-  </header>
-  <!-- Hourly time blocks 8am - 5pm -->
-  <section class="container">
-    <div class="row">
-      <div class="col-2" id="currentHour" data-hour="8">8:00 AM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="current-day" class="lead day"></p>
+    </header>
+    <!-- Hourly time blocks 8am - 5pm -->
+    <section class="container">
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="8">8:00 AM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="9">9:00 AM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="10">10:00 AM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="11">11:00 AM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="12">12:00 PM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="13">1:00 PM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="14">2:00 PM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="15">3:00 PM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="16">4:00 PM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="currentHour" data-hour="17">5:00 PM</div>
+            <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
+            <div class="col-1">
+                <button class="save-button"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+        </div>
+    </section>
 
-      <div class="col-2" id="currentHour" data-hour="9">9:00 AM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="10">10:00 AM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="11">11:00 AM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="12">12:00 PM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="13">1:00 PM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="14">2:00 PM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="15">3:00 PM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="16">4:00 PM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-
-      <div class="col-2" id="currentHour" data-hour="17">5:00 PM</div>
-      <div class="col-8"><textarea cols="86" rows="3"></textarea></div>
-      <div class="col-1">
-        <button class="save-button"><i class="far fa-save"></i></button>
-      </div>
-    </div>
-  </section>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="./assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
