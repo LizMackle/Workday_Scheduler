@@ -1,4 +1,4 @@
-# 05 - Third Party API's: Workday Scheduler
+# 05 - Third Party API's: Workday Scheduler 📆
 
 ## Story
 To create a daily planner for users with a busy schedule, to allow them to add important events and manage time effectively.
@@ -12,6 +12,7 @@ To create a daily planner for users with a busy schedule, to allow them to add i
 ## Git Hub Respository 
 https://github.com/LizMackle/Workday_Scheduler
 
-## 💻 [Published Page](https://lizmackle.github.io/Code_Quiz/)
-![Screenshotcombined](https://user-images.githubusercontent.com/93589073/149288308-e099be78-2775-4250-addd-48f16cc542a0.png)
+## 📌[Published Page]*insert link here*
+![Capture](https://user-images.githubusercontent.com/93589073/150057119-0d3ba9aa-8a68-4e27-a5f8-d857337af892.PNG)
+
 
