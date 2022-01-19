@@ -12,7 +12,7 @@ To create a daily planner for users with a busy schedule, to allow them to add i
 ## Git Hub Respository 
 https://github.com/LizMackle/Workday_Scheduler
 
-## 📌[Published Page]https://lizmackle.github.io/Workday_Scheduler/
+## 📌[Published Page](https://lizmackle.github.io/Workday_Scheduler/)
 ![Capture](https://user-images.githubusercontent.com/93589073/150057119-0d3ba9aa-8a68-4e27-a5f8-d857337af892.PNG)
 
 
