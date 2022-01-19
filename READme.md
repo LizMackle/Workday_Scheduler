@@ -6,8 +6,9 @@ To create a daily planner for users with a busy schedule, to allow them to add i
 ## Expected Behaviour
 1. Users given a live time and todays date
 2. Important tasks/events can be entered into their daily planner 
-3. When the save button is clicked, the event is saved in local storage 
-4. When the user comes back to the planner later in the day or refreshes the page, the event is still visible. 
+3. Time is color coded based on present, past or future 
+4. When the save button is clicked, the event is saved in local storage 
+5. When the user comes back to the planner later in the day or refreshes the page, the event is still visible. 
 
 ## Git Hub Respository 
 https://github.com/LizMackle/Workday_Scheduler
