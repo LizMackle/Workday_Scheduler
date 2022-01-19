@@ -1,0 +1,98 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #fdf6e7;
+    line-height: 1;
+  }
+  
+  /* header / date & time */
+  .jumbotron {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-bottom: black solid 10px;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #current-day {
+    font-size: 25px;
+  }
+  
+  .container {
+    padding-bottom: 30px;
+  }
+  
+  /* left (time) column */
+  .col-2 {
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-bottom: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  } 
+  
+  /* middle column */
+  textarea {
+    background: #c1e0f5;
+    border: solid black 3px;
+    border-radius: 5px;
+    resize: none;
+    color: #000000;
+    padding: 9.5px;
+  }
+  
+  .col-8 {
+    padding-left: 6px;
+  }
+  
+  /* right column (save button) */
+  .save-button {
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 5px;
+    margin-left: 0px;
+    height: 72px;
+    width: 72px;
+  }
+  
+  .save-button i:hover {
+    font-size: 35px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* colours for live time background */
+  .past {
+    background-color: #c7c5c5;
+    color: black;
+  }
+  
+  .present {
+    background-color: #fabdc6;
+    color: black;
+  }
+  
+  .future {
+    background-color: #c1e0f5;
+    color: black
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  /* .description {
+    white-space: pre-wrap;
+  /* }  */
+  
+  /* .row {
+    height: 50px;
+    white-space: pre-wrap;
+    border-top: 1px solid white;
+  }  */
